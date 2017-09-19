@@ -1,0 +1,19 @@
+body {
+  padding-top: 70px;
+}
+
+.test-part {
+  margin: 20px 0;
+}
+
+.test-font {
+  font-size: 400%;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

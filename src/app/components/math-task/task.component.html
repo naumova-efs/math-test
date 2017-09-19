@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-md-12 test-font test-part">
+    <span>{{operand1}}</span>
+    <span>{{operationSymbol}}</span>
+    <span>{{operand2}}</span>
+    <span>=</span>
+    <input #res type="text" id="result" size="3" [value]="inputResult" (keyup.enter)="onResultEnter(res.value)">
+  </div>
+  <div class="col-md-12">
+    <span [class]="instructionClass">{{instructionText}}</span>
+  </div>
+
+</div>
