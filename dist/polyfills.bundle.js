@@ -7864,7 +7864,6 @@ webpackJsonp([0, 4], [
           }
           return delegate;
         }
-
 // TODO: @JiaLiPassion, support cancel task later if necessary
 
 
@@ -8412,7 +8411,6 @@ webpackJsonp([0, 4], [
             };
           });
         }
-
 /// GEO_LOCATION
         if (_global['navigator'] && _global['navigator'].geolocation) {
           patchPrototype(_global['navigator'].geolocation, ['getCurrentPosition', 'watchPosition']);
